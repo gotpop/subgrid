@@ -1,5 +1,12 @@
 {% extends './layout.njk' %}
 
 {% block body %}
-    <h1>Hello, {{ name }}!</h1>
+    <main class="main">
+        <h1>{{ title }}</h1>
+
+        {% for item in items %}
+            <article>{{ item.name }}</article>
+        {% endfor %}
+    </main>
+
 {% endblock %}

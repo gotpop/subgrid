@@ -9,7 +9,11 @@
 
 </head>
 <body>
+    {% include './header.njk' %}
+
     {% block body %}{% endblock %}
+
+    {% include './footer.njk' %}
 
     <script src="../js/app.js"></script>
 </body>
