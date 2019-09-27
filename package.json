@@ -4,10 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel index.html --open"
+    "start": "parcel src/html/index.njk --open"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
-    "parcel-bundler": "^1.12.3"
+    "nunjucks": "^3.2.0",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-nunjucks": "^2.1.1"
   }
 }
