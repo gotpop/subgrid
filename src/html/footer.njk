@@ -1,6 +1,7 @@
 <footer class="footer">
-    <a href="#" class="footer__link">Link</a>
-    <a href="#" class="footer__link">Link</a>
-    <a href="#" class="footer__link">Link</a>
-    <a href="#" class="footer__link">Link</a>
+    <div class="footer__inner">        
+        {% for link in footer %}
+            <a href="#" class="footer__link">{{ link.name }}</a>
+        {% endfor %}
+    </div>
 </footer>
