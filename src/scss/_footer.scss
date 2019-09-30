@@ -1,0 +1,12 @@
+// Footer
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #3d3d3d;
+
+  &__inner {
+    flex: 0 1 $width;
+    padding: 1rem;
+  }
+}
