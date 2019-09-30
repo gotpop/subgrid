@@ -1,6 +1,9 @@
 <header class="header">
     <div class="header__inner">
-        <section class="header__logo">{{ title }}</section>
+        <section class="header__logo">
+            {{ title }}
+            {% include './logo.njk' %}
+        </section>
         <nav class="header__nav">
             {% for link in nav %}
                 <a href="#" class="header__link">{{ link.name }}</a>
