@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/html/index.njk"
+    "start": "parcel src/html/index.njk",
+    "build": "parcel src/html/index.njk",
+    "open": "parcel src/html/index.njk --open"
   },
   "dependencies": {
     "node-sass": "^4.12.0",
