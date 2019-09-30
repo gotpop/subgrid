@@ -1,4 +1,4 @@
+# Ignore build files
 node_modules
-node_modules
-/.cache
-/dist
+.cache
+dist

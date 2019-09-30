@@ -1,0 +1,35 @@
+// Header
+
+.header {
+  background: #3d3d3d;
+  display: flex;
+  justify-content: center;
+
+  &__inner {
+    display: grid;
+    flex: 0 1 $width;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
+    padding: $gutter;
+  }
+
+  &__logo {
+    grid-column: 1 / 4;
+    background: #eeeeee;
+    padding: 1rem;
+  }
+
+  &__nav {
+    grid-column: 5 / 13;
+    display: grid;
+    grid-template-columns: subgrid;
+  }
+
+  &__link {
+    background: #ffffff;
+    color: #3d3d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
