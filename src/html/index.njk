@@ -5,12 +5,14 @@
     <main class="main">
         <div class="main__inner">
             <section class="feed__intro">
-                <h3 class="intro__title"></h3>
+                <h3 class="intro__title">{{ title }}</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam autem voluptatem excepturi, dolor est odio perferendis magnam vitae praesentium repudiandae, delectus ut, tempora suscipit cupiditate eum qui fugit possimus provident.</p>
             </section>
-            {% for item in items %}
-                {{ article(item.name) }}
-            {% endfor %}
+            <div class="feed">
+                {% for item in items %}
+                    {{ article(item.name, item.title, item.text) }}
+                {% endfor %}
+            </div>
         </div>
     </main>
 {% endblock %}

@@ -17,6 +17,13 @@
     grid-column: 1 / 4;
     background: #eeeeee;
     padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    svg  {
+      max-width: 40px;
+    }
   }
 
   &__nav {
