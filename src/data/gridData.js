@@ -27,7 +27,8 @@ const goData = {
         {name: 'Item 4'},
         {name: 'Item 5'},
         {name: 'Item 6'},
-        {name: 'Item 7'}
+        {name: 'Item 7'},
+        {name: 'Item 8'}
     ],
 };
 
