@@ -11,6 +11,7 @@
     grid-gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
     padding: $gutter;
+    align-items: center;
   }
 
   &__logo {
@@ -38,5 +39,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: $gutter;
   }
 }
