@@ -1,4 +1,4 @@
-# Working with subgrid
+# Working with CSS subgrid
 
 A demo of the upcoming `subgrid` property of CSS Grid level 2 (Next Level).
 
