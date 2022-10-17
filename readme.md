@@ -2,7 +2,7 @@
 
 A demo of the upcoming `subgrid` property of CSS Grid level 2 (Next Level).
 
-## Live example 
+## Live example
 
 https://subgrid-teamgotpop.vercel.app
 
